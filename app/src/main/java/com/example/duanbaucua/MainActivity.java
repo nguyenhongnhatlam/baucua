@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity
                                            String msg = "Tên: " + geteditName.getText().toString() +
                                                    System.getProperty("line.separator") +
                                                    "Email: " + geteditEmail.getText().toString();
-                                           msg += System.getProperty("line.separator") + "Sở thích: ";
+                                           msg += System.getProperty("line.separator") + "Chọn vị trí: ";
 
                                            geteditName.setText("");
                                            geteditEmail.setText("");
@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity
 
                                            getFemale.setChecked(false);
                                            getMale.setChecked(false);
-                                           msg += System.getProperty("line.separator") + "Ngôn ngữ của tôi: " + getspinLang.getSelectedItem().toString();
+                                           msg += System.getProperty("line.separator") + "Mệnh giá tôi đặt: " + getspinLang.getSelectedItem().toString();
 
-                                           msg += System.getProperty("line.separator") + "Xác nhận thông tin trên là đúng: ";
+                                           msg += System.getProperty("line.separator") + "Xác nhận có chơi game tương tự: ";
 
                                            if(getswitchExpert.isChecked())
                                                msg += "Có";

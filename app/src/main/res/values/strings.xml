@@ -4,19 +4,19 @@
     <string name="txtEmail">Email:</string>
     <string name="editName">Tên</string>
     <string name="editEmail">Email</string>
-    <string name="txtCheckBoxTitle">Hobbies</string>
-    <string name="chkReading">Học</string>
-    <string name="chkTravelling">Chơi</string>
+
+    <string name="chkReading">Chủ phòng</string>
+    <string name="chkTravelling">Người đặt</string>
     <string name="chkCoding">Khác...</string>
     <string name="rdMale">Nam</string>
     <string name="rdFemale">Nữ</string>
-    <string name="txtSex">Sex</string>
-    <string name="txtLan">Languages</string>
+
+    <string name="txtLan">Mệnh giá</string>
     <string-array name="lan_array">
-        <item>VietNamese</item>
-        <item>English</item>
-        <item>French</item>
-        <item>Chinese</item>
+        <item>VND</item>
+        <item>USD</item>
+        <item>Euro</item>
+        <item>Bảng Anh</item>
     </string-array>
     <string name="txtexpert">Bạn đã từng chơi game tương tự chưa?</string>
     <string name="txtBirthday">Birthday</string>
@@ -24,4 +24,6 @@
     <string name="btnInfo">OK</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="title_activity_manhinh2">Manhinh2</string>
+    <string name="todo">TODO</string>
+    <string name="_400">400</string>
 </resources>

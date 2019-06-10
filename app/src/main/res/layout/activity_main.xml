@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/backgrouddn"
     tools:context=".MainActivity">
 
     <TableLayout
@@ -30,6 +31,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/txtName"
+        android:background="#87CEFA"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toStartOf="@+id/editText2"
         app:layout_constraintStart_toStartOf="parent"
@@ -45,6 +47,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/txtEmail"
+        android:background="#87CEFA"
         app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
         app:layout_constraintEnd_toStartOf="@+id/editText3"
         app:layout_constraintHorizontal_bias="0.411"
@@ -64,6 +67,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/editName"
+        android:background="#87CEFA"
         app:layout_constraintBottom_toTopOf="@+id/editText3"
         app:layout_constraintEnd_toEndOf="@+id/tableLayout"
         app:layout_constraintHorizontal_bias="0.721"
@@ -83,6 +87,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/editEmail"
+        android:background="#87CEFA"
         app:layout_constraintBottom_toBottomOf="@+id/tableLayout"
         app:layout_constraintEnd_toEndOf="@+id/tableLayout"
         app:layout_constraintHorizontal_bias="0.74"
@@ -141,7 +146,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:background="#1E90FF"
         android:text="@string/btnInfo"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
@@ -157,6 +162,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:text="@string/btnCancel"
+        android:background="#1E90FF"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="@+id/linearLayout"
         app:layout_constraintHorizontal_bias="0.864"
@@ -243,9 +249,9 @@
         tools:ignore="HardcodedText" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="320dp"
-        android:layout_height="244dp"
+        android:id="@+id/xingau1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
